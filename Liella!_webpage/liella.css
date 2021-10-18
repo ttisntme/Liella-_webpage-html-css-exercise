@@ -1,0 +1,166 @@
+body {
+    background-color: purple;
+    color: #443243;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(0deg,white, purple);
+}
+/*select a thin part in body as the main display part*/
+#thin {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    color: #da78c9;
+    min-width: 960px;
+    max-width: 2048px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(110, 110, 110);
+}
+header {
+    background: url(img/head.png) no-repeat center center;
+    height: 200px;
+}
+h1 {
+    font-size: medium;
+    font-style: italic;
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav {
+    background-color: #FFFFFF;
+    font-weight: bold; 
+	text-align: center;
+	padding: 20px;
+    margin: 20px;
+    border-top: 2px solid rgb(142, 142, 238);
+    border-bottom: 2px solid rgb(142, 142, 238);
+}
+nav a { 
+    text-decoration:underline;
+    text-shadow: 1px  purple;
+    color: purple;
+}
+a:hover {
+    color: rgb(0, 128, 53);
+}
+/*home image style*/
+.homeimg {
+    height: 500px;
+    background: url(img/home_img.png) no-repeat center center;
+}
+main {
+    padding: 10px 20px;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgb(70, 116, 100);
+    border-bottom: 2px solid rgb(142, 142, 238);
+}
+/*the group name's style*/
+.name {
+    color: purple;
+    font-weight: bold;
+}
+/*-------------------------------------------------------------------*/
+/*page 2 Introduction*/
+h3 {
+    color: black;
+}
+/*2Introduction page's images' style*/
+/*2 images show as a line*/
+.page2img{
+    float: left;
+    width: 50%;   /* manage two imgs */
+    /* height: 5%;  height 的百分比有什么用？  */   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.page2img img {
+    width: 80%;
+    height: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: block;
+}
+/*-------------------------------------------------------------------*/
+/*page 3 members*/
+/*show members' images*/
+/*still, five images as a line*/
+.member {
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 100px; 
+    width: 19.5%;          /*place 5 images. because the showing of the boarder needs additional pixels*/
+    /* border: 1px solid purple; */
+}
+.member img {
+    width: 80%;
+    height: 80%;
+    /* margin-right: 10%; */
+    /* margin-left: 10%; */
+    display: block;
+}
+.member:hover {
+    border-right: 2px solid purple;   
+    border-left: 2px solid purple;
+}
+/*members' colors*/
+.canonC {
+    color: #FFA500;
+}
+.kekeC {
+    color: #00FFFF;
+}
+.chiC {
+    color: #FF1493;
+}
+.sumireC {
+    color: #00FF00;
+}
+.renC {
+    color: #00008B;
+}
+/*-------------------------------------------------------------------*/
+/*page 4 activity */
+/*activity image style*/
+.activityimg {
+    height: 900px;
+    width: 100%;
+    background: url(img/page4img.png) no-repeat center center;
+}
+/*-------------------------------------------------------------------*/
+/*page 5 about us*/
+/*About us page set part for image and words*/
+.uspage {
+    height: 400px;
+    width: 100%;
+}
+/*left image, right words*/
+.leftp {
+    float: left;
+    margin-left: 15%;
+    width: 300px;
+    /* border:1px solid rgb(70, 116, 100); */
+}
+.rightp {
+    float: left;
+     /* border:1px solid rgb(70, 116, 100); */
+}
+/*page 5 text style*/
+.p5text {
+    font-size: x-large;
+}
+
+
+
+footer {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: small;
+}
+
+
+
